@@ -5,7 +5,7 @@ author: "Ramal Aghayev"
 email: "ramalagayev085@gmail.com"
 
 # Site settings
-baseurl: "" # the subpath of your site (empty if repository name is username.github.io)
+baseurl: "/ramal_website" # the subpath of your site (repository name)
 url: "https://ramalagayev.github.io" # the base hostname & protocol for your site
 
 # Build settings
