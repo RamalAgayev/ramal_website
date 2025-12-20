@@ -10,8 +10,8 @@ title: Home
                 <h2>Welcome to My Website</h2>
                 <p>This is the home page where you can learn more about me and my work.</p>
                 <div class="cta-buttons">
-                    <a href="/about" class="btn btn-primary">Learn More</a>
-                    <a href="/projects" class="btn btn-secondary">View Projects</a>
+                    <a href="{{ '/about' | relative_url }}" class="btn btn-primary">Learn More</a>
+                    <a href="{{ '/projects' | relative_url }}" class="btn btn-secondary">View Projects</a>
                 </div>
             </div>
             <div class="hero-photo-wrapper">
@@ -24,12 +24,12 @@ title: Home
         <div class="feature-card">
             <h3>About Me</h3>
             <p>Get to know more about my background, skills, and interests.</p>
-            <a href="/about" class="link">Read more →</a>
+            <a href="{{ '/about' | relative_url }}" class="link">Read more →</a>
         </div>
         <div class="feature-card">
             <h3>My Projects</h3>
             <p>Explore the projects I've been working on and my portfolio.</p>
-            <a href="/projects" class="link">View projects →</a>
+            <a href="{{ '/projects' | relative_url }}" class="link">View projects →</a>
         </div>
     </section>
 </main>

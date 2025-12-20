@@ -2,10 +2,10 @@
     <div class="nav-container">
         <h1 class="logo">Ramal Aghayev</h1>
         <ul class="nav-menu">
-            <li><a href="/" {% if page.url == '/' or page.url == '/index.html' %}class="active"{% endif %}>Home</a></li>
-            <li><a href="/about" {% if page.url == '/about' or page.url == '/about.html' %}class="active"{% endif %}>About</a></li>
-            <li><a href="/projects" {% if page.url == '/projects' or page.url == '/projects.html' %}class="active"{% endif %}>Projects</a></li>
-            <li><a href="/contact" {% if page.url == '/contact' or page.url == '/contact.html' %}class="active"{% endif %}>Contact</a></li>
+            <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' or page.url == '/index.html' %}class="active"{% endif %}>Home</a></li>
+            <li><a href="{{ '/about' | relative_url }}" {% if page.url == '/about' or page.url == '/about.html' %}class="active"{% endif %}>About</a></li>
+            <li><a href="{{ '/projects' | relative_url }}" {% if page.url == '/projects' or page.url == '/projects.html' %}class="active"{% endif %}>Projects</a></li>
+            <li><a href="{{ '/contact' | relative_url }}" {% if page.url == '/contact' or page.url == '/contact.html' %}class="active"{% endif %}>Contact</a></li>
         </ul>
         <div class="social-icons">
             <a href="https://github.com/RamalAgayev" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
