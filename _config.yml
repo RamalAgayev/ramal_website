@@ -1,0 +1,42 @@
+# Jekyll Configuration
+title: "Ramal Aghayev"
+description: "Personal website of Ramal Aghayev"
+author: "Ramal Aghayev"
+email: "ramalagayev085@gmail.com"
+
+# Site settings
+baseurl: "" # the subpath of your site
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Navigation
+navigation:
+  - name: "Home"
+    url: "/"
+  - name: "About"
+    url: "/about"
+  - name: "Projects"
+    url: "/projects"
+  - name: "Contact"
+    url: "/contact"
+
+# Social links
+social:
+  github: "https://github.com/RamalAgayev"
+  codecademy: "https://www.codecademy.com/profiles/RamalAghayev"
+  repository: "https://github.com/RamalAgayev/ramal_website"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
