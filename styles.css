@@ -296,6 +296,15 @@ body {
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
+.image-quote {
+    margin-top: 1rem;
+    font-style: italic;
+    text-align: center;
+    color: #555;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
 .about-text h3 {
     color: #000;
     margin-top: 2rem;
